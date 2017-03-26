@@ -1,4 +1,4 @@
-# [![emitta](/logo.png)](https://github.com/dcamilleri/emitta)
+# [![emitta](/logo/emitta.png)](https://github.com/dcamilleri/emitta)
 
 > The simplest (and smallest) Event Emitter implementation
 

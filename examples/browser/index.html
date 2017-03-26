@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emitta example</title>
+</head>
+<body>
+  <h1>Emitta example</h1>
+
+  <script src="../../emitta.js"></script>
+  <script>
+    var emitta = new window.EventEmitter()
+
+    emitta.on('init', function () {
+      setTimeout(function () {
+        window.alert('Hello world!')
+      }, 2000)
+    })
+
+    emitta.emit('init')
+    emitta.removeListener('init')
+  </script>
+</body>
+</html>
